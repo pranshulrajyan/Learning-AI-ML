@@ -45,4 +45,42 @@ if(age >= 18):
     else:
         print("You are eligible to vote")
 else:
-    print("You are not eligible to vote")  
+    print("You are not eligible to vote") 
+
+#List Functions
+list1 = [1, 2, 3, 4, 5]
+print(list1) 
+list1.append(6) #adds 6 to the end of the list
+print(list1)
+list1.insert(1, 0) #adds 0 at index 1
+print(list1)
+list1.remove(3) #removes 3 from the list
+print(list1)
+list1.pop() #removes the last element from the list
+print(list1)
+list1.sort() #sorts the list in ascending order
+print(list1)
+list1.sort(reverse=True) #sorts the list in descending order
+print(list1)    
+list1.clear() #removes all the elements from the list
+print(list1)
+list1.reverse() #reverses the list
+print(list1)
+list1.remove(1) #removes 1 from the list(first occurence)
+print(list1)
+list1.pop(3) #removes the element at index 3
+print(list1)
+
+#list is mutable, we can change the elements of the list
+
+#tuple is immutable, we cannot change the elements of the tuple
+tuple1 = (1, 2, 3, 4, 5)
+print(tuple1)
+#single value tuple
+tuple2 = (1,) #if this comma were not here the type of tuple would have been int instead of tupple.
+print(tuple2)
+
+#tuple methods
+tuple3 = (1, 2, 3, 4, 5, 1, 2, 3)
+print(tuple3.count(1)) #counts the number of occurrences of 1 in the tuple
+print(tuple3.index(3)) #finds the index of the first occurrence of 3 in the tuple
