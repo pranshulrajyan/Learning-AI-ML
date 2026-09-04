@@ -145,3 +145,10 @@ class Marks:
         print("Marks: ", self.marks)
 m1 = Marks("Maths", 95) #creating an object of the class Marks
 m1.display() #calling the display() method of the class Marks 
+
+class College:
+    @staticmethod
+    def info():
+        print("NSUT")
+clg1 = College() #creating an object of the class College
+clg1.info() #calling the info() method of the class College
