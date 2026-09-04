@@ -84,3 +84,17 @@ print(tuple2)
 tuple3 = (1, 2, 3, 4, 5, 1, 2, 3)
 print(tuple3.count(1)) #counts the number of occurrences of 1 in the tuple
 print(tuple3.index(3)) #finds the index of the first occurrence of 3 in the tuple
+
+# Loops
+list2 = [1, 2, 3, 4, 5]
+for i in list2:
+    print(i) #prints the elements of the list one by one
+for el in list2:
+    print(el) #prints the elements of the list one by one
+else:
+    print("The loop is over") #this will be printed after the loop is over
+
+for el in range(5): #range() is a function which generates a sequence of numbers from 0 to 4
+    print(el) #prints the numbers from 0 to 4
+for el in range(1, 10 , 2): #range() is a function which generates a sequence of numbers from 1 to 9 with a step of 2
+    print(el) #prints the numbers from 1 to 9 with a step of 2
