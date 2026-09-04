@@ -98,3 +98,17 @@ for el in range(5): #range() is a function which generates a sequence of numbers
     print(el) #prints the numbers from 0 to 4
 for el in range(1, 10 , 2): #range() is a function which generates a sequence of numbers from 1 to 9 with a step of 2
     print(el) #prints the numbers from 1 to 9 with a step of 2
+
+# functions in python:
+def sum(a,b):
+    s = a+b
+    return s
+print(sum(1,2))
+
+#Recursion in python:
+def fact(n):
+    if n == 0:
+        return 1
+    else:
+        return n*fact(n-1)
+print(fact(5)) #prints the factorial of 5
