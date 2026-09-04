@@ -113,6 +113,35 @@
 #         return n*fact(n-1)
 # print(fact(5)) #prints the factorial of 5 
 
-f = open("file.txt", "x") #creates a new file named file.txt in the current directory
-f.write("hi, i am Pranshul. I am learning Python Programming") #writes the string to the file
-f.close() #closes the file , to avoid writing this line, we can use the with operation.
+# f = open("file.txt", "x") #creates a new file named file.txt in the current directory
+# f.write("hi, i am Pranshul. I am learning Python Programming") #writes the string to the file
+# f.close() #closes the file , to avoid writing this line, we can use the with operation.
+
+#OOPs in Python:
+class Student:
+    name = "Pranshul"
+    age = 18
+s1 = Student() #creating an object of the class Student
+print(s1.name) #prints the name of the student
+print(s1.age) #prints the age of the student
+
+class Citizen:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def intro(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+c1 = Citizen("Pranshul", 18) #creating an object of the class Citizen
+c1.intro() #calling the intro() method of the class Citizen
+
+class Marks:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+    def display(self):
+        print("Name of Subject: ", self.name)
+        print("Marks: ", self.marks)
+m1 = Marks("Maths", 95) #creating an object of the class Marks
+m1.display() #calling the display() method of the class Marks 
