@@ -4,7 +4,7 @@ A structured self-study journey into **Artificial Intelligence and Machine Learn
 
 This repository documents my learning process through code, Jupyter notebooks, practice exercises, and hands-on projects.
 
-## 📚 Repository Structure
+## Repository Structure
 
 ```text
 Learning-AI-ML/
@@ -27,7 +27,7 @@ Learning-AI-ML/
 
 *Note: The structure above summarizes the current learning areas. Individual notebook filenames may evolve as the repository grows.*
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Development environment:** Jupyter Notebook, VS Code
