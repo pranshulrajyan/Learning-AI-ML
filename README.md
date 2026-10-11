@@ -21,7 +21,12 @@ Learning-AI-ML/
 │
 ├── BasicToyProject/
 │   └── ToyProject.ipynb
-│
+|   └── Iris.csv
+|
+├── PracticeTitanic/
+│   └── Titanic.ipynb
+│   └── train.csv
+|
 └── README.md
 ```
 
