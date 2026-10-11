@@ -47,6 +47,7 @@ Current areas of practice include:
 - Python and NumPy exercises
 - Tensor fundamentals
 - An introductory machine learning toy project using the Iris dataset
+- A practice machine learning toy project using the Titanic dataset
 - Data preprocessing, feature scaling, label encoding, and classification
 - Visualizing classification decision boundaries
 
