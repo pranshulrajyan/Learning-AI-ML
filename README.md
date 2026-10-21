@@ -50,6 +50,7 @@ Current areas of practice include:
 - A practice machine learning toy project using the Titanic dataset
 - Data preprocessing, feature scaling, label encoding, and classification
 - Visualizing classification decision boundaries
+- Working with a CSV file
 
 ## How to Get Started
 
