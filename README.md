@@ -27,6 +27,9 @@ Learning-AI-ML/
 │   └── Titanic.ipynb
 │   └── train.csv
 |
+├── Working with a CSV/
+│   └── WorkingwithCSV.ipynb
+│   └── Mall_Customers.csv
 └── README.md
 ```
 
